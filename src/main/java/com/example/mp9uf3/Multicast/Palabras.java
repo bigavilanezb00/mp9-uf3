@@ -12,10 +12,6 @@ public class Palabras {
         return palabras;
     }
 
-//    public void setVel(int vel) {
-//        this.vel = vel;
-//    }
-
     public String cogerPalabras() {
         this.palabra = palabras[(int)(Math.random()* palabras.length)];
         return palabra;
